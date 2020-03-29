@@ -52,15 +52,17 @@
             android:background="#dedede"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
-        <Button
+        <ImageButton
+            android:layout_weight="1"
             android:id="@+id/btnDel"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="DEL"
-            android:textSize="30sp"
+            android:src="@drawable/ic_backspace_black_24dp"
+            android:paddingRight="32dp"
+            android:paddingLeft="32dp"
             android:background="#dedede"
             android:layout_marginLeft="5dp"
-            android:layout_weight="1"/>
+           />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

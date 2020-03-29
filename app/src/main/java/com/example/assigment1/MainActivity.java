@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             findViewById(id).setOnClickListener(this);
         }
     }
-    public void Pre(){
+    public void assignArg1(){
         arg1 = Float.parseFloat(tv.getText().toString());
         show = "0";
         if(arg1 == (int) arg1){
@@ -60,19 +60,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnAdd:
                 operator = "+";
-                Pre();
+                assignArg1();
                 break;
             case R.id.btnMi:
                 operator = "-";
-                Pre();
+                assignArg1();
                 break;
             case R.id.btnMul:
                 operator = "*";
-                Pre();
+                assignArg1();
                 break;
             case R.id.btnDv:
                 operator = "/";
-                Pre();
+                assignArg1();
                 break;
             case R.id.btnEq:
                 float result = 0;
