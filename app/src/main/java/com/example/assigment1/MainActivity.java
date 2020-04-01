@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         tv = findViewById(R.id.textView);
         int[] idBtn = {  R.id.btnCE, R.id.btnC, R.id.btnBs,
-                R.id.btnDvX,  R.id.btnDv,
+                  R.id.btnDv,
                 R.id.btn7  ,  R.id.btn8, R.id.btn9, R.id.btnMul,
                 R.id.btn4,  R.id.btn5, R.id.btn6, R.id.btnAdd,
                 R.id.btn1,  R.id.btn2, R.id.btn3, R.id.btnMi,

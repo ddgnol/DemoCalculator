@@ -16,7 +16,7 @@
             android:gravity="right|center"
             android:textColor="#000000"
             android:textSize="64sp"
-            android:fontFamily="@font/ds_digi"
+            android:fontFamily="@font/ds_digit"
             />
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
             android:layout_height="match_parent"
             android:text="%"
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
         <Button
@@ -40,7 +40,7 @@
             android:layout_height="match_parent"
             android:text="CE"
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
         <Button
@@ -49,7 +49,7 @@
             android:layout_height="match_parent"
             android:text="C"
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
         <ImageButton
@@ -60,7 +60,7 @@
             android:src="@drawable/ic_backspace_black_24dp"
             android:paddingRight="32dp"
             android:paddingLeft="32dp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
            />
     </LinearLayout>
@@ -78,7 +78,7 @@
             android:text="1/x"
             android:textAllCaps="false"
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
         <Button
@@ -87,7 +87,7 @@
             android:layout_height="match_parent"
             android:text="x^2"
             android:textSize="24sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
         <Button
@@ -97,7 +97,7 @@
             android:text="sqrt(x)"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
         <Button
@@ -106,7 +106,7 @@
             android:layout_height="match_parent"
             android:text="/"
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
     </LinearLayout>
@@ -150,7 +150,7 @@
             android:layout_height="match_parent"
             android:text="x"
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
     </LinearLayout>
@@ -194,7 +194,7 @@
             android:layout_height="match_parent"
             android:text="-"
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
     </LinearLayout>
@@ -240,7 +240,7 @@
             android:textSize="30sp"
             android:layout_weight="1"
             android:layout_marginLeft="5dp"
-            android:background="#dedede"/>
+            android:background="@drawable/buttonstate"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -254,7 +254,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:text="+/-"
             android:layout_weight="1"/>
@@ -273,7 +273,7 @@
             android:layout_height="match_parent"
             android:text="."
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
         <Button
@@ -282,7 +282,7 @@
             android:layout_height="match_parent"
             android:text="="
             android:textSize="30sp"
-            android:background="#dedede"
+            android:background="@drawable/buttonstate"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"/>
     </LinearLayout>
